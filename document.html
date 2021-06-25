@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Conversor de moeda</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Conversor de moedas</h2>
+
+      <p>Digite um valor do dinheiro que deseja converter</p>
+      <input
+        type="number"
+        class="valor-cambio"
+        placeholder="Digite sua quantia em real..."
+      />
+
+      <p>Selecione uma moeda para qual deseja converter seu dinheiro!</p>
+
+      Dolar<input
+        type="radio"
+        class="radio-convert dolar"
+        name="teste"
+        value="4,96"
+      />
+
+      Euro<input
+        type="radio"
+        name="teste"
+        class="radio-convert euro"
+        value="5,92"
+      />
+
+      Libra<input
+        type="radio"
+        class="radio-convert libra"
+        name="teste"
+        value="6,92"
+      />
+
+      <button class="btn">Calcular</button>
+
+      <h1 class="res">Seu resultado aparecera aqui!</h1>
+    </div>
+    <!--container-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
